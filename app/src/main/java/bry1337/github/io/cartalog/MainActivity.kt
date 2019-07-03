@@ -1,12 +1,22 @@
 package bry1337.github.io.cartalog
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import bry1337.github.io.cartalog.base.BaseActivity
 
-class MainActivity : AppCompatActivity() {
+/**
+ * Created by edwardbryan.abergas on 07/02/2019.
+ *
+ * @author edwardbryan.abergas@gmail.com
+ */
+class MainActivity : BaseActivity() {
 
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    setContentView(R.layout.activity_main)
-  }
+    override val isActionBarBackButtonEnabled: Boolean
+        get() = true
+
+    override fun setupActivityLayout() {
+        setContentView(R.layout.activity_main)
+    }
+
+    override fun initView() {
+
+    }
 }

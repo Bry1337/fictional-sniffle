@@ -1,24 +1,5 @@
 
-# Credit Notebook Application built in Kotlin-MVVM Pattern
-
-## Note
-This project is still being written and improved, some features may not be available.
- 
-
-## Framework Included
- 1. RxJava2
- 2. Dagger2
- 3. Retrofit2
- 4. OkHttp3
- 5. Navigation Component
- 6. Room
- 
-## Purpose
- The purpose of this project is to be open source and to showcase the usage of the said frameworks and the flexibility using MVVM design pattern. 
-
-The goal of this app is to be used to note and sum up all the credits that people owe you and that credit will be deducted if those people paid you by adding a debit onto their transaction. This also includes dates to track on when did the transaction took place.
-
-Future features will also be added as this project is still on going.
+## Future features will also be added as this project is still on going.
 
 ## Design Pattern
 MVP (Model-View-Presenter) is the design pattern used to build this to separate the layers and entities from each other specially logic [Clean Architecture](https://github.com/Bry1337/fuzzy-computing-machine). This also includes [SOLID Principle](https://www.baeldung.com/solid-principles) so when you try to change anything the whole application would not collapse, basically speaking

@@ -9,7 +9,7 @@ This project is still being written and improved, some features may not be avail
  1. RxJava2
  2. Dagger2
  3. Retrofit2
- 4. OkHttp
+ 4. OkHttp3
  5. Navigation Component
  6. Room
  
